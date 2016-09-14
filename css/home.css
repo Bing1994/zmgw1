@@ -1,0 +1,274 @@
+@charset "UTF-8";
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;}
+.clearfix{zoom:1;}
+.wrapper{width:28.5rem;margin:0 auto;}
+
+.left{float:left;}
+.right{float:right;}
+.block{display:block;}
+
+/*sectionH2*/
+.sectionH2{padding:1.25rem 0;text-align:center;font-size:1.0rem;color:#d5d6e2;font-weight:500;}
+.parallux{height:19.55rem;z-index:1;}
+/*.parallux .parallux-bg .parallux-inner.bg-header{background-image:url(img/banner.jpg); }*/
+.text h2{padding-top:5.0rem;text-align:center;font-size:1.25rem;color:#fff;text-shadow:0.025rem 0.025rem 0.075rem #000;}
+.text p{margin-top:1.75rem;text-align:center;font-size:0.625rem;color:#fff;text-shadow:0.025rem 0.025rem 0.075rem #000;}
+
+.sectionCon{width:100%;z-index:2;
+	-webkit-backface-visibility:hidden;
+	-webkit-perspective:1000;
+	transform:translateZ(0);
+}
+.separator{
+    margin:0 auto;
+    max-width:28.25rem;
+    text-align:center;
+    font-size:0.45rem;
+    padding-bottom: 2.875rem;
+
+}
+.separator h1{
+    font-size:1.575rem;
+    color:#2b2b2c;
+    letter-spacing:0.0rem;
+    margin-top: 2.725rem;
+
+}
+.separator p{
+    font-size:0.5rem;
+    color:#2b2b2c;
+    letter-spacing:0.0rem;
+    line-height:0.8rem;
+    text-align:center;
+    width: 25.05rem;
+    top: 7.0rem;
+    margin: 0 auto;
+    display: block;
+}
+.separator .img2{
+    width: 1.4rem;
+    height: 0.8rem;
+    display: block;
+    margin-left: 16.875rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.875rem;
+}
+.s-c{
+    width: 27.5rem;
+    margin: 0 auto;
+}
+.about{
+    width: 9.65rem;
+    height: 1.225rem;
+    margin:  2.0rem auto 0;
+    display: block;
+}
+.up{
+    width: 1.975rem;
+    height: 1.0rem;
+    background: url(../img/up.png);
+    background-size: 1.975rem 1.0rem;
+    position:relative;
+    -webkit-animation:m-up 1s linear forwards;
+    left: 50%;
+    margin-left: -1.0rem;
+    top: 7.0rem;
+    }
+.down{
+    width: 1.975rem;
+    height: 1.0rem;
+    position: relative;
+    background: url(../img/down.png);
+    background-size: 1.975rem 1.0rem;
+    -webkit-animation:m-down 1s linear forwards;
+    -webkit-animation:m-shan 3s linear infinite;
+    left: 50%;
+    margin-left: -1.0rem;
+    margin-top: -3.75rem;
+}
+.zm-log{
+    width: 11.75rem;
+    height: 7.6rem;
+    background: url(../img/zm-log.png);
+    background-size: 11.75rem 7.6rem;
+    margin: 3.0rem auto 0;
+    display: block;
+
+}
+.join{
+    background: url(../img/join-bj.jpg) no-repeat ;
+    background-size: 100% 100%;
+    padding-top: 4.725rem auto 0;
+}
+.business{
+    height: 19.55rem;
+    background: #000;
+}
+.b-c{
+    width: 25.5rem;
+    margin: 0 auto;
+    position: relative;
+}
+.business .img1{
+    position: absolute;
+    top: 5.875rem;
+    left: 17.325rem;
+    width: 8.175rem;
+    border-radius: 50%;
+
+}
+.b-log{
+    width: 7.4rem;
+    height: 1.225rem;
+    position: absolute;
+    left: 0.125rem;
+    top: 5.55rem;
+}
+.b-msg{
+    width: 14.9rem;
+    font-size:0.5rem;
+    color:#ffffff;
+    letter-spacing:0.0rem;
+    line-height:0.825rem;
+    text-align:left;
+    position: absolute;
+    top: 9.55rem;
+    left: 0.125rem;
+}
+.b-icon{
+    width: 1.4rem;
+    height: 0.775rem;
+    position: absolute;
+    top: 7.45rem;
+    left: 0.125rem;
+}
+.j-log{
+    width: 7.625rem;
+    height: 1.225rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.j-c{
+    width: 18.75rem;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 4.75rem;
+    padding-bottom: 4.75rem;
+}
+.j-icon{
+    display: block;
+    width: 1.4rem;
+    height: 0.775rem;
+    margin-left: 11.5rem;
+    margin-top: 0.625rem;
+    margin-bottom: 1.4rem;
+}
+.j-2wm{
+    width: 4.625rem;height: 4.525rem;
+    /*left: 140px;
+    top: 276px;*/
+}
+
+.ios{
+    width: 5.325rem;
+    margin: 0.75rem 1.8rem 0;
+}
+footer{
+    /*height: 261px;*/
+    background: #313030;
+    background-size: 100%;
+}
+.f-c{
+    width: 30.35rem;
+    margin:0 auto;
+    padding:0.5rem 0;
+}
+.f-c ul{
+    display: inline-block;
+}
+.f-c li:nth-child(1){
+    margin-bottom: 0.15rem;
+}
+.f-c div{
+    width: 0.45rem;
+    height: 0.525rem;
+    margin-right: 0.25rem;
+    display: inline-block;
+}
+.f-c div img{
+    width: 100%;
+    height: 100%;
+    /*vertical-align: middle;*/
+    margin-top: 0.125rem;
+}
+
+.f-c p{
+    font-size: 0.35rem;
+    color: #FFFFFF;
+    letter-spacing: 0.0rem;
+    line-height: 0.55rem;
+    display: inline-block;
+}
+
+/*.f-c p{
+    font-size:22px;
+    color:#ffffff;
+    letter-spacing:0px;
+    text-align:left;
+    line-height: 30px;
+}*/
+.f-c h2{
+    display: inline-block;
+    font-size: 0.35rem;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 0.95rem;
+}
+canvas{
+    width: 100%;
+    background: #000;
+    height: 100%;
+
+}
+.parallux-inner{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block !important;
+    width: 3.4rem;
+    height: 4.5rem;
+    margin-top: -4.125rem;
+    margin-left: -1.625rem;
+}
+.show{
+    margin-top: 2.725rem;
+}
+.show img{
+    width: 100%;
+}
+.show a{
+    width: 8.75rem;
+    height: 8.75rem;
+    display: block;
+    float: left;
+    box-shadow: 0 0 0.75rem #c1c1c1;
+    transition: all 0.6s
+}
+.show a:hover{
+    transform:scale(1.1);
+}
+.show a:nth-child(2){
+    margin:0 0.75rem;
+}
+.s-logo{
+    width: 5.175rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 3.3rem;
+    top: 2.875rem;
+    display: block !important;
+}
